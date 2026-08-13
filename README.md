@@ -17,7 +17,7 @@ Native macOS notifications for [Claude Code](https://docs.anthropic.com/en/docs/
 Add the marketplace and install the plugin:
 
 ```bash
-claude plugin marketplace add github:sawankumar1012/claude-code-mac-notify
+claude plugin marketplace add sawankumar1012/claude-code-mac-notify
 claude plugin install claude-code-mac-notify
 ```
 
