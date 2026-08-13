@@ -1,19 +1,24 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-code-mac-notify",
-  "interface": {
-    "displayName": "Claude Code Mac Notify"
+  "description": "macOS native notifications for Claude Code",
+  "owner": {
+    "name": "Sawan Kumar",
+    "email": "sawankumar1012@gmail.com"
   },
   "plugins": [
     {
       "name": "claude-code-mac-notify",
+      "description": "macOS native notifications when Claude Code finishes responding or is waiting for input",
+      "author": {
+        "name": "Sawan Kumar"
+      },
+      "category": "productivity",
       "source": {
-        "source": "local",
-        "path": "../../"
-      },
-      "policy": {
-        "installation": "AVAILABLE"
-      },
-      "category": "Developer Tools"
+        "source": "github",
+        "repo": "sawankumar1012/claude-code-mac-notify",
+        "ref": "main"
+      }
     }
   ]
 }
