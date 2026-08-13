@@ -14,23 +14,14 @@ Native macOS notifications for [Claude Code](https://docs.anthropic.com/en/docs/
 
 ## Install
 
-```bash
-npm install -g claude-code-mac-notify
-```
-
-Then add the plugin to your Claude Code settings (`~/.claude/settings.json`):
-
-```json
-{
-  "plugins": ["claude-code-mac-notify"]
-}
-```
-
-Or install directly as a Claude Code plugin:
+Add the marketplace and install the plugin:
 
 ```bash
-claude plugin add claude-code-mac-notify
+claude plugin marketplace add github:sawankumar1012/claude-code-mac-notify
+claude plugin install claude-code-mac-notify
 ```
+
+That's it — notifications will start working immediately.
 
 ## How it works
 
