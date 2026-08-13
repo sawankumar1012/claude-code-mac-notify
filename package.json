@@ -1,0 +1,35 @@
+{
+  "name": "claude-code-mac-notify",
+  "version": "1.0.0",
+  "description": "macOS native notifications for Claude Code — get alerted when Claude finishes or is waiting for input",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "notifications",
+    "macos",
+    "plugin"
+  ],
+  "author": {
+    "name": "Sawan Kumar",
+    "email": "sawankumar1012@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawankumar1012/claude-code-mac-notify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sawankumar1012/claude-code-mac-notify/issues"
+  },
+  "homepage": "https://github.com/sawankumar1012/claude-code-mac-notify#readme",
+  "os": [
+    "darwin"
+  ],
+  "files": [
+    ".claude-plugin/",
+    "hooks/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
+  ]
+}

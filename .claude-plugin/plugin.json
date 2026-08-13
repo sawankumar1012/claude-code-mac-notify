@@ -1,0 +1,10 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "claude-code-mac-notify",
+  "version": "1.0.0",
+  "description": "macOS native notifications when Claude Code finishes responding or is waiting for input",
+  "author": {
+    "name": "Sawan Kumar",
+    "email": "sawankumar1012@gmail.com"
+  }
+}
